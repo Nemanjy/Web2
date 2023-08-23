@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5a+ISxGg9KfOAAGn0PbaISPXuLPAm1oRFA+HvKR2WLoLe1Q2dr6MjRyvS3p9DJWua4WYCEM5nTwdOYt3pwj67A==",
+  "dgSpecHash": "7NT6iO+M9ZzFK3GmkfhRDIdsSnbS8fndK71DsINdqzn4NneyiVn/vO6KO0yNpSEZOmKDazTxnsVE1jjkQhgioQ==",
   "success": true,
-  "projectFilePath": "C:\\Projekti\\web2-projekat-main\\OnlineShop\\OnlineShop\\OnlineShop.csproj",
+  "projectFilePath": "C:\\Projekti\\Web2\\web2-projekat-main\\OnlineShop\\OnlineShop\\OnlineShop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\neman\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\neman\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",

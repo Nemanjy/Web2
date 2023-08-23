@@ -1,7 +1,7 @@
 import { React, useState } from "react";
 import Alert from '@mui/material/Alert';
 import LoginIcon from '@mui/icons-material/Login';
-import CardGiftcardIcon from '@mui/icons-material/CardGiftcard';
+import ShopIcon from '@mui/icons-material/Shop';
 import { TextField, Button, Link, Typography} from '@mui/material';
 import Box from '@mui/material/Box';
 import { UserLogin } from "../../models/UserLogin";
@@ -103,9 +103,9 @@ function Login() {
           }}
         >
           <Typography variant="h4" gutterBottom sx={{ mt: "10vh" }}>
-            Welcome to Web Shop
+            Web Shop
           </Typography>
-          <CardGiftcardIcon sx={{ fontSize: 40, mt: "2vh" }} />
+          <ShopIcon sx={{ fontSize: 40, mt: "2vh" }} />
         </Box>
         
         {errorMessage && (

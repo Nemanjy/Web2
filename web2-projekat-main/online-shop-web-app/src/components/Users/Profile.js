@@ -1,7 +1,7 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
 import { UserProfile } from '../../services/UserService';
-import { Box, Typography, TextField, Button, Alert, IconButton, 
+import { Box, Typography, TextField, Button, Alert, Face, IconButton, 
   Dialog, DialogTitle, DialogContent, DialogActions, Avatar } from '@mui/material';
 import { ChangeUserProfile } from '../../services/UserService';
 import EditIcon from '@mui/icons-material/Edit';

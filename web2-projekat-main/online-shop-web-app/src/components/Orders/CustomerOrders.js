@@ -112,11 +112,11 @@ function CustomerOrders() {
             {allOrders.filter((order) => !order.isDelivered).length > 0 && (
 
             <TableContainer component={Paper}>
-            <Table sx={{ minWidth: 650, backgroundColor: '#bef2bd' }} size="small" aria-label="a dense table">
+            <Table sx={{ minWidth: 650, backgroundColor: 'gray' }} size="small" aria-label="a dense table">
             <TableHead>
                 <TableRow>
                     <TableCell colSpan={7} align="center" sx={{ borderBottom: '1px solid #050000' }}>
-                    <h3>Orders in progress</h3>
+                    <h3>Orders</h3>
                     </TableCell>
                 </TableRow>
                 <TableRow>

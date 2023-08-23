@@ -52,7 +52,7 @@ function AllOrders(){
         {orders.length > 0 && (
             <>
             <TableContainer component={Paper}>
-            <Table sx={{ minWidth: 650, backgroundColor: '#b6c2b9' }} size="small" aria-label="a dense table">
+            <Table sx={{ minWidth: 650, backgroundColor: '#757268' }} size="small" aria-label="a dense table">
             <TableHead>
                 <TableRow>
                     <TableCell colSpan={7} align="center" sx={{ borderBottom: '1px solid #050000' }}>

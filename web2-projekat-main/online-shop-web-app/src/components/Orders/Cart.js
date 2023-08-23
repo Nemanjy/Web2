@@ -173,7 +173,7 @@ function Cart() {
                           {orderItem.itemQuantity}
                         </TableCell>
                         <TableCell align="right">
-                          {orderItem.itemPrice} usd
+                          {orderItem.itemPrice} rsd
                         </TableCell>
                         <TableCell align="right">
                           <IconButton
@@ -191,21 +191,21 @@ function Cart() {
                     <TableCell colSpan={2.5} align="right">
                       <b>Price:</b>
                     </TableCell>
-                    <TableCell align="right">{order[0].totalPrice} usd</TableCell>
+                    <TableCell align="right">{order[0].totalPrice} rsd</TableCell>
                     <TableCell align="right"></TableCell>
                   </TableRow>
                   <TableRow>
                     <TableCell colSpan={2.5} align="right">
                       <b>Delivery fee:</b>
                     </TableCell>
-                    <TableCell align="right">{order[0].fee} usd</TableCell>
+                    <TableCell align="right">{order[0].fee} rsd</TableCell>
                     <TableCell align="right"></TableCell>
                   </TableRow>
                   <TableRow>
                     <TableCell colSpan={2.5} align="right">
                       <b>Total price:</b>
                     </TableCell>
-                    <TableCell align="right">{order[0].totalPrice + order[0].fee} usd</TableCell>
+                    <TableCell align="right">{order[0].totalPrice + order[0].fee} rsd</TableCell>
                     <TableCell align="right"></TableCell>
                   </TableRow>
                   

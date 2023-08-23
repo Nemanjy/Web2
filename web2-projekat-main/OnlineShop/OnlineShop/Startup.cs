@@ -137,7 +137,7 @@ namespace OnlineShop
             app.UseRouting();
             app.UseStaticFiles(new StaticFileOptions
             {
-                FileProvider = new PhysicalFileProvider(@"C:\Projekti\web2-projekat-main\OnlineShop\OnlineShop\Images"),
+                FileProvider = new PhysicalFileProvider(@"C:\Projekti\Web2\web2-projekat-main\OnlineShop\OnlineShop\Images"),
                 RequestPath = "/Images"
             });
 

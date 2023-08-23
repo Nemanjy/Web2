@@ -56,7 +56,7 @@ function Home() {
         )}
         {user.token !== null && (
             <Box sx={{ flexGrow: 1 }}>
-            <AppBar position="static" sx={{ backgroundColor: 'grey' }}>
+            <AppBar position="static" sx={{ backgroundColor: 'gray' }}>
               <Toolbar>
                 <Button color="inherit" component={Link} to="/profile">
                   <PersonRoundedIcon/>

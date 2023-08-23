@@ -76,7 +76,7 @@ function PendingOrders(){
                     <StyledTableCell><b>Order time</b></StyledTableCell>
                     <StyledTableCell align="right"><b>Comment</b></StyledTableCell>
                     <StyledTableCell align="right"><b>Delivery address</b></StyledTableCell>
-                    <StyledTableCell align="right"><b>Total price (usd)</b></StyledTableCell>
+                    <StyledTableCell align="right"><b>Total price (rsd)</b></StyledTableCell>
                     <StyledTableCell align="right"><b>Payment type</b></StyledTableCell>
                 </TableRow>
             </TableHead>

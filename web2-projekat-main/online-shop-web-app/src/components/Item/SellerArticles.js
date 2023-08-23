@@ -134,7 +134,7 @@ function SellerArticles() {
             <>
             <div className="item-list">
           {items.map((item) => (
-            <Card key={item.id} className="item-card">
+            <Card key={item.id} style={{backgroundColor:"gray"}} className="item-card">
               <CardContent>
                 <Typography variant="h5" component="div">
                   {item.name}

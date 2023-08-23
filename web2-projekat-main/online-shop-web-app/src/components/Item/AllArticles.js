@@ -87,7 +87,7 @@ function AllArticles(){
             <>
             <div className="item-list">
           {items.map((item) => (
-            <Card key={item.id} className="item-card">
+            <Card variant="outlined"  key={item.id} style={{backgroundColor: "gray"}} className="item-card">
               <CardContent>
                 <Typography variant="h5" component="div">
                   {item.name}
@@ -98,14 +98,14 @@ function AllArticles(){
                   {item.description}
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Price: {item.price} usd
+                  Price: {item.price} rsd
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
                   Available quantity: {item.quantity}
                 </Typography>
               </CardContent>
               <CardActions>
-              <Button variant="outlined" disabled={!itemQuantities[item.id] || itemQuantities[item.id] === 0} size="small" onClick={() => handleDecreaseQuantity(item.id)}>
+              <Button variant="outlined"  disabled={!itemQuantities[item.id] || itemQuantities[item.id] === 0} size="small" onClick={() => handleDecreaseQuantity(item.id)}>
                         -
                     </Button>
                     <Typography variant="body2" color="text.secondary">
